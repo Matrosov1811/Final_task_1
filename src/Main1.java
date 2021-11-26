@@ -5,7 +5,7 @@ public class Main1 {
         Scanner s = new Scanner(System.in);
         System.out.println("Введите текущий курс");
         double x = s.nextDouble();
-        System.out.println("Введите количество рублей");
+        System.out.println("Введите количество рублей" );
         double y = s.nextDouble();
         System.out.println("Итого долларов: " + ((double) Math.round((y / x)  * 100.0) / 100.0));
     }
